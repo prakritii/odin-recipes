@@ -1,0 +1,102 @@
+.header{
+    background-color: green;
+    color: white;
+}
+
+.logo{
+    /* float: left; */
+    width: 300px;
+    display: block;
+}
+.logo img{
+    width:50%;
+}
+.menu{
+    float: right;
+}
+.menu ul{
+    list-style: none;
+    margin: 8px;
+    padding: 0;
+
+}
+.menu li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.menu a{
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Lato';
+}
+.menu a:hover{
+    text-decoration: underline;
+}
+.container .box { 
+    /* width:540px;  */
+    margin:50px; 
+    display:table; 
+} 
+.container .box .box-row { 
+    display:table-row; 
+} 
+
+.container .box .box-cell { 
+    display:table-cell; 
+    width:50%; 
+    padding:10px; 
+} 
+.container .box .box-cell.box1 { 
+    /* background:green;  */
+    /* color:white;  */
+    text-align:justify; 
+} 
+.container .box .box-cell.box2 { 
+    /* background:lightgreen;  */
+    text-align:justify 
+} 
+.container .box .box-cell.box3 { 
+    background:lime; 
+    text-align:justify; 
+}
+
+.box-cell img{
+    width: 30vw;
+    height: 20vw;
+    /* width:  450px; */
+    object-fit: cover;
+    /* object-fit:scale-down; */
+
+    /* height: auto; */
+    /* background-size: cover; */
+} 
+
+.contact {
+    /* float: left; */
+    text-align: center;
+}
+
+.contact ul {
+    list-style: none;
+    margin: 8px;
+    padding: 0;
+}
+
+.contact li {
+    display: inline-block;
+    padding: 0 20px;
+}
+.contact a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Lato';
+}
+.contact a {
+    text-decoration: underline;
+}
+
+/* https://stackoverflow.com/questions/19414856/how-can-i-make-all-images-of-different-height-and-width-the-same-via-css */
