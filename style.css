@@ -57,10 +57,6 @@
     /* background:lightgreen;  */
     text-align:justify 
 } 
-.container .box .box-cell.box3 { 
-    background:lime; 
-    text-align:justify; 
-}
 
 .box-cell img{
     width: 30vw;
@@ -99,4 +95,12 @@
     text-decoration: underline;
 }
 
-/* https://stackoverflow.com/questions/19414856/how-can-i-make-all-images-of-different-height-and-width-the-same-via-css */
+.recipe {
+    margin: 26px;
+
+}
+
+.recipe img{
+    width: 50%;
+    height: 50%;
+}
